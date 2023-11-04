@@ -1,0 +1,8 @@
+- name: playbooks/update.yml
+  hosts: all
+  tasks:
+
+  - name: Update system to the latest patch level
+    yum:
+     name: "*"
+     state: latest
