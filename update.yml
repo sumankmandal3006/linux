@@ -4,5 +4,5 @@
 
   - name: Update system to the latest patch level
     yum:
-     name: "*"
-     state: latest
+     name: zip
+     state: present
